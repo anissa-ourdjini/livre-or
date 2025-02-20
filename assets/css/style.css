@@ -1,0 +1,76 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:rgb(123, 36, 36);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.comment {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 1px;
+    margin: 0 5px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Centre les images horizontalement */
+    gap: 10px; /* Espace entre les images */
+}
+
+.image-container img {
+    max-width: 45%; /* Ajuste la taille des images */
+    height: auto;
+}
+
